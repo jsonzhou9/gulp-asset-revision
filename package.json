@@ -1,0 +1,24 @@
+{
+  "name": "gulp-asset-revision",
+  "version": "1.0.0",
+  "description": "Revises the version of the resource referenced in the html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulpplugin",
+    "cache bust",
+    "cachebust",
+    "revision",
+    "asset",
+    "static",
+    "rev"
+  ],
+  "author": "jsonzhou",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zzyss86/gulp-asset-revision.git"
+  }
+}
