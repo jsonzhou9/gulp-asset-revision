@@ -16,9 +16,14 @@
     "rev"
   ],
   "author": "jsonzhou",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/zzyss86/gulp-asset-revision.git"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.7",
+    "lodash.assign": "^4.2.0",
+    "through2": "^2.0.3"
   }
 }
