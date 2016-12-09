@@ -25,7 +25,7 @@ Revises the version of the resource referenced in the html.
 	});
 	
 	gulp.task('revision', ['hash'], function() {
-	    return gulp.src(['./manifest/assets.json','./pages/*.html'])
+	    return gulp.src(['./pages/*.html'])
 	        .pipe(revision({
 	            hasSuffix: false,
 	            manifest: './manifest/assets.json'
