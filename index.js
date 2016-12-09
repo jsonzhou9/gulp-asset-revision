@@ -68,8 +68,8 @@ function revision(options){
 
             patterns.forEach(function(pattern){
                 changes.push({
-                    regexp: new RegExp( '([\/\\\\\'"\(])' + pattern+'([\'\"\)])', 'g' ),
-                    replacement: '$1' + hashPath + '$2'
+                    regexp: new RegExp( '([\/\\\\\'"\(])' + pattern+'([^\'^\"^\)]*)([\'\"\)])', 'g' ),
+                    replacement: '$1' + hashPath + '$3'
                 });
             });
         }

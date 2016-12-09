@@ -1,6 +1,6 @@
 {
   "name": "gulp-asset-revision",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Revises the version of the resource referenced in the html",
   "main": "index.js",
   "scripts": {
